@@ -36,7 +36,7 @@ def produce_manifest_entries(dir):
 
 if __name__ == '__main__':
 
-  if os.getcwd().rfind('/scripts') != -1:
+  if os.getcwd().rfind('/tools') != -1:
     os.chdir('../')
 
   f = open(MANIFEST, 'w')
